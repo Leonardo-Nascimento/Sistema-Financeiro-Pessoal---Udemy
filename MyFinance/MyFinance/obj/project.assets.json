@@ -13424,17 +13424,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LEO\\.nuget\\packages\\": {}
+    "C:\\Users\\LEO\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProjetosC#\\MyFinance\\MyFinance\\MyFinance.csproj",
+      "projectUniqueName": "E:\\Fontes\\Sistema-Financeiro-Pessoal-Udemy\\MyFinance\\MyFinance\\MyFinance.csproj",
       "projectName": "MyFinance",
-      "projectPath": "D:\\ProjetosC#\\MyFinance\\MyFinance\\MyFinance.csproj",
+      "projectPath": "E:\\Fontes\\Sistema-Financeiro-Pessoal-Udemy\\MyFinance\\MyFinance\\MyFinance.csproj",
       "packagesPath": "C:\\Users\\LEO\\.nuget\\packages\\",
-      "outputPath": "D:\\ProjetosC#\\MyFinance\\MyFinance\\obj\\",
+      "outputPath": "E:\\Fontes\\Sistema-Financeiro-Pessoal-Udemy\\MyFinance\\MyFinance\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\LEO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

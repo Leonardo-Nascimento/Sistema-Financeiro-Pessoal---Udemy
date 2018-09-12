@@ -11,7 +11,7 @@ namespace MyFinance.Models
     public class UsuarioModel
     {
         public int Id { get; set; }
-
+        
         [Required(ErrorMessage ="Informe seu Nome!")]
         public String Nome { get; set; }
 

@@ -9,3 +9,14 @@ D:\ProjetosC#\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.AssemblyInfo
 D:\ProjetosC#\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.dll
 D:\ProjetosC#\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.pdb
 D:\ProjetosC#\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.csprojAssemblyReference.cache
+E:\Fontes\Sistema-Financeiro-Pessoal-Udemy\MyFinance\MyFinance\bin\Debug\netcoreapp2.0\MyFinance.deps.json
+E:\Fontes\Sistema-Financeiro-Pessoal-Udemy\MyFinance\MyFinance\bin\Debug\netcoreapp2.0\MyFinance.runtimeconfig.json
+E:\Fontes\Sistema-Financeiro-Pessoal-Udemy\MyFinance\MyFinance\bin\Debug\netcoreapp2.0\MyFinance.runtimeconfig.dev.json
+E:\Fontes\Sistema-Financeiro-Pessoal-Udemy\MyFinance\MyFinance\bin\Debug\netcoreapp2.0\MyFinance.dll
+E:\Fontes\Sistema-Financeiro-Pessoal-Udemy\MyFinance\MyFinance\bin\Debug\netcoreapp2.0\MyFinance.pdb
+E:\Fontes\Sistema-Financeiro-Pessoal-Udemy\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.csproj.CoreCompileInputs.cache
+E:\Fontes\Sistema-Financeiro-Pessoal-Udemy\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.AssemblyInfoInputs.cache
+E:\Fontes\Sistema-Financeiro-Pessoal-Udemy\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.AssemblyInfo.cs
+E:\Fontes\Sistema-Financeiro-Pessoal-Udemy\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.dll
+E:\Fontes\Sistema-Financeiro-Pessoal-Udemy\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.pdb
+E:\Fontes\Sistema-Financeiro-Pessoal-Udemy\MyFinance\MyFinance\obj\Debug\netcoreapp2.0\MyFinance.csprojAssemblyReference.cache

@@ -39,8 +39,13 @@ namespace MyFinance.Controllers
         }
 
         [HttpGet]
-        public IActionResult CriarPlanoConta()
+        public IActionResult CriarPlanoConta(int? id)
         {
+            if (id != null)
+            {
+                PlanoContaModel objPlanoContas = new PlanoContaModel(HttpContextAccessor);
+                ViewBag.Registro = objPlanoContas.CarregarRegistro(id);
+            }
 
             return View();
         }

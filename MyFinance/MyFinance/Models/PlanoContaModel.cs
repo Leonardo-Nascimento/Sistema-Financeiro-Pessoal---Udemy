@@ -60,10 +60,35 @@ namespace MyFinance.Models
             return lista;
         }
 
+        public PlanoContaModel CarregarRegistro(int? id)
+        {
+            PlanoContaModel item = new PlanoContaModel();
+            string id_usuarioLogado = HttpContextAccessor.HttpContext.Session.GetString("IdUsuarioLogado");
+            string sql = $"select id,descricao,tipo,usuario_id from plano_contas where usuario_id  = {id_usuarioLogado} and id = {id}";
+            DAL objDAL = new DAL();
+            DataTable dt = objDAL.RetDataTable(sql);
+
+            item.Id = int.Parse(dt.Rows[0]["ID"].ToString());
+            item.Descricao = dt.Rows[0]["DESCRICAO"].ToString();
+            item.Tipo = dt.Rows[0]["TIPO"].ToString();
+            item.Usuario_Id = int.Parse(dt.Rows[0]["USUARIO_ID"].ToString());
+
+            return item;
+        }
+
         public void Insert()
         {
             string id_usuarioLogado = HttpContextAccessor.HttpContext.Session.GetString("IdUsuarioLogado");
-            String sql = $"INSERT INTO PLANO_CONTAS (DESCRICAO,TIPO,USUARIO_ID) VALUES ('{Descricao}','{Tipo}','{id_usuarioLogado}')";
+            String sql = "";
+            if (Id == 0)
+            {
+                sql = $"INSERT INTO PLANO_CONTAS (DESCRICAO,TIPO,USUARIO_ID) VALUES ('{Descricao}','{Tipo}','{id_usuarioLogado}')";
+            }
+            else
+            {
+                sql = $"UPDATE PLANO_CONTAS SET DESCRICAO = '{Descricao}', TIPO = '{Tipo}' WHERE  USUARIO_ID = '{id_usuarioLogado}' AND ID = '{Id}'";
+            }
+
             DAL objDAL = new DAL();
             objDAL.ExecutaComandoSQL(sql);
         }
