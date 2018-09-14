@@ -10,23 +10,17 @@
 
     if (ViewBag.Registro != null)
     {
-
         try
         {
-
             vId = int.Parse(ViewBag.Registro.Id.ToString());
             vDescricao = ViewBag.Registro.Descricao.ToString();
             vTipo = ViewBag.Registro.Tipo.ToString();
         }
-
-
         catch (Exception e)
         {
             throw;
         }
-
     }
-
 }
 
 <form asp-controller="PlanoConta" asp-action="CriarPlanoConta">
@@ -39,9 +33,7 @@
     </div>
 
     <div class="form-group">
-        <label>Tipo:</label>
-
-        
+        <label>Tipo:</label>        
 
          @{
            if (vTipo == "R")
@@ -56,11 +48,8 @@
             }
         } 
 
-
     </div>
-
     <button type="submit" class="btn btn-block btn-success">Registrar</button>
-
 </form>
 
 
