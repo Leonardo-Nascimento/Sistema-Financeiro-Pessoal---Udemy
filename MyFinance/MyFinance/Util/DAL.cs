@@ -10,9 +10,9 @@ namespace MyFinance.Util
     public class DAL
     {
         private static string server = "localhost";
-        private static string database = "financeiro";
+        private static string database = "Financeiro";
         private static string user = "root";
-        private static string password = "";
+        private static string password = "123456";
         private static string connectionString = $"server={server};Database={database};Uid={user};Pwd = {password};SslMode=none";
         private MySqlConnection connection;
 
